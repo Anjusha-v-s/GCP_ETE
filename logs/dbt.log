@@ -1,0 +1,57 @@
+[0m17:16:17.290769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191FA9A3F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191FCC26EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191FCC26070>]}
+
+
+============================== 17:16:17.297451 | c13933a4-c981-4e3f-aadd-92724851d8d9 ==============================
+[0m17:16:17.297451 [info ] [MainThread]: Running with dbt=1.10.5
+[0m17:16:17.299344 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\anjus\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init GCP_ETE', 'send_anonymous_usage_stats': 'True'}
+[0m17:16:17.326823 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\anjus\.dbt
+[0m17:16:17.329920 [debug] [MainThread]: Starter project path: C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\include\starter_project
+[0m17:16:17.414540 [info ] [MainThread]: 
+Your new dbt project "GCP_ETE" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:16:17.415879 [info ] [MainThread]: Setting up your profile.
+[0m17:16:42.097935 [error] [MainThread]: Encountered an error:
+list index out of range
+[0m17:16:42.100212 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\cli\main.py", line 483, in init
+    results = task.run()
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\task\init.py", line 346, in run
+    self.setup_profile(profile_name)
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\task\init.py", line 261, in setup_profile
+    adapter = self.ask_for_adapter_choice()
+  File "C:\Users\anjus\projects\GCP_ETE\venv\lib\site-packages\dbt\task\init.py", line 243, in ask_for_adapter_choice
+    return available_adapters[numeric_choice - 1]
+IndexError: list index out of range
+
+[0m17:16:42.102244 [debug] [MainThread]: Command `dbt init` failed at 17:16:42.102244 after 24.91 seconds
+[0m17:16:42.103436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191FA9A3F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191F62B2FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000191F62B2DC0>]}
+[0m17:16:42.103436 [debug] [MainThread]: Flushing usage events
+[0m17:16:43.402532 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:17:38.902419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175A6F3FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175AB29F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175B95DC70>]}
+
+
+============================== 17:17:38.906568 | 30576097-7426-4c8a-989a-7d20d7275bf3 ==============================
+[0m17:17:38.906568 [info ] [MainThread]: Running with dbt=1.10.5
+[0m17:17:38.908629 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt init GCP_ETE', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:17:38.936571 [info ] [MainThread]: A project called GCP_ETE already exists here.
+[0m17:17:38.938616 [debug] [MainThread]: Command `dbt init` succeeded at 17:17:38.938616 after 0.12 seconds
+[0m17:17:38.939635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175A6F3FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175B989A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002175B9896D0>]}
+[0m17:17:38.939635 [debug] [MainThread]: Flushing usage events
+[0m17:17:40.195699 [debug] [MainThread]: An error was encountered while trying to flush usage events
