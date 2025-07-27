@@ -1,0 +1,11 @@
+GCP_ETE:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: fine-advantage-342106         # e.g., gcp-ete-dev-389221
+      dataset: datatransform                 # Create this dataset in BigQuery
+      keyfile: "C:/Users/anjus/Downloads/fine-advantage-342106-b5e2e5385140.json"
+      location: US                           # Or asia-south1, etc., based on your project
+      threads: 4
