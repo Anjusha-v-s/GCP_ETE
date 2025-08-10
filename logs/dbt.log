@@ -1742,3 +1742,370 @@ ORDER BY trip_date;
 [0m14:00:04.455044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F88194F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8951B1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A3D9100>]}
 [0m14:00:04.457057 [debug] [MainThread]: Flushing usage events
 [0m14:00:05.610041 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:10:43.931665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BABE7F4FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAC0A7AEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAC0A7A1C0>]}
+
+
+============================== 14:10:43.939489 | c1dc8512-304e-42f8-8e1e-7b0818bf7e72 ==============================
+[0m14:10:43.939489 [info ] [MainThread]: Running with dbt=1.10.5
+[0m14:10:43.941527 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt run --select top_zones', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:10:50.565415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BABCBE9E50>]}
+[0m14:10:50.695722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE3951880>]}
+[0m14:10:50.697724 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m14:10:52.019314 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m14:10:52.467196 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 6 files added, 0 files changed.
+[0m14:10:52.469198 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\marts\avg_trip_distance.sql
+[0m14:10:52.470199 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://macros\zone_lookup.sql
+[0m14:10:52.471198 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\marts\payment_type_stats.sql
+[0m14:10:52.472199 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\marts\top_zones.sql
+[0m14:10:52.473198 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://macros\month_extract.sql
+[0m14:10:52.474200 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://macros\percent_calc.sql
+[0m14:10:53.046639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE41FEF40>]}
+[0m14:10:53.205469 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:10:53.210472 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:10:53.262017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE403DFA0>]}
+[0m14:10:53.264402 [info ] [MainThread]: Found 5 models, 499 macros
+[0m14:10:53.265742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE421F1F0>]}
+[0m14:10:53.268343 [info ] [MainThread]: 
+[0m14:10:53.270378 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:10:53.272392 [info ] [MainThread]: 
+[0m14:10:53.275725 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:10:53.279036 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m14:10:53.281054 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:10:58.105740 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m14:10:58.107741 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:10:59.427053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE4034130>]}
+[0m14:10:59.429052 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:10:59.435921 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.top_zones
+[0m14:10:59.437927 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.top_zones .... [RUN]
+[0m14:10:59.439310 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.top_zones'
+[0m14:10:59.441607 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.top_zones
+[0m14:10:59.461774 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.top_zones"
+[0m14:10:59.464774 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.top_zones
+[0m14:10:59.531966 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.top_zones"
+[0m14:10:59.533967 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.top_zones: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.top_zones"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`top_zones`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        pickup_location_id,
+        dropoff_location_id,
+        
+  COALESCE(fare_amount, 0) + COALESCE(tip_amount, 0)
+ AS revenue
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+)
+SELECT
+    pickup_zone.Zone AS pickup_area,
+    drop_zone.Zone AS drop_area,
+    SUM(revenue) AS total_revenue
+FROM trips
+
+  LEFT JOIN `bigquery-public-data.new_york_taxi_trips.taxi_zone_lookup` pickup_zone
+    ON pickup_location_id = pickup_zone.LocationID
+  LEFT JOIN `bigquery-public-data.new_york_taxi_trips.taxi_zone_lookup` drop_zone
+    ON dropoff_location_id = drop_zone.LocationID
+
+GROUP BY pickup_area, drop_area
+ORDER BY total_revenue DESC
+LIMIT 10;
+
+
+[0m14:10:59.535459 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m14:11:00.521983 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:a8447206-dbc7-48a4-823f-47586a30142f&page=queryresults
+[0m14:11:00.524424 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:a8447206-dbc7-48a4-823f-47586a30142f&page=queryresults
+[0m14:11:00.535462 [debug] [Thread-1  ]: Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:11:00.542464 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c1dc8512-304e-42f8-8e1e-7b0818bf7e72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE41F5370>]}
+[0m14:11:00.545522 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.top_zones  [[31mERROR[0m in 1.10s]
+[0m14:11:00.549521 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.top_zones
+[0m14:11:00.552845 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.top_zones' to be skipped because of status 'error'.  Reason: Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql.
+[0m14:11:00.559848 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:11:00.562726 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:11:00.564388 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m14:11:00.566584 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m14:11:00.567583 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.top_zones' was properly closed.
+[0m14:11:00.569654 [info ] [MainThread]: 
+[0m14:11:00.573664 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.29 seconds (7.29s).
+[0m14:11:00.577666 [debug] [MainThread]: Command end result
+[0m14:11:00.651210 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:11:00.657932 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:11:00.675118 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m14:11:00.677408 [info ] [MainThread]: 
+[0m14:11:00.678876 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:11:00.681059 [info ] [MainThread]: 
+[0m14:11:00.683377 [error] [MainThread]: [31mFailure in model top_zones (models\marts\top_zones.sql)[0m
+[0m14:11:00.684390 [error] [MainThread]:   Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:11:00.686754 [info ] [MainThread]: 
+[0m14:11:00.688767 [info ] [MainThread]:   compiled code at target\compiled\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:11:00.691815 [info ] [MainThread]: 
+[0m14:11:00.693815 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m14:11:00.697378 [debug] [MainThread]: Command `dbt run` failed at 14:11:00.697378 after 16.95 seconds
+[0m14:11:00.699441 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BABE7F4FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAE3951880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BABFBB5FA0>]}
+[0m14:11:00.701836 [debug] [MainThread]: Flushing usage events
+[0m14:11:01.956644 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:22:44.437385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238D9534F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DB7BAEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DB7BA1C0>]}
+
+
+============================== 14:22:44.444859 | def49b42-6f93-4bcf-b38d-6fc7874e5327 ==============================
+[0m14:22:44.444859 [info ] [MainThread]: Running with dbt=1.10.5
+[0m14:22:44.447147 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --select avg_trip_distance', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:22:51.289496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DAF267F0>]}
+[0m14:22:51.420568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DB732B80>]}
+[0m14:22:51.422591 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m14:22:52.753880 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m14:22:53.181898 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:22:53.182908 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:22:53.256528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238FEDB5130>]}
+[0m14:22:53.427991 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:22:53.433886 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:22:53.485158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238FED737F0>]}
+[0m14:22:53.487495 [info ] [MainThread]: Found 5 models, 499 macros
+[0m14:22:53.488902 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238FEDCAE20>]}
+[0m14:22:53.491168 [info ] [MainThread]: 
+[0m14:22:53.493232 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:22:53.495274 [info ] [MainThread]: 
+[0m14:22:53.497331 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:22:53.500517 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m14:22:53.502947 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:22:57.241315 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m14:22:57.242322 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:22:58.289863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DB828B80>]}
+[0m14:22:58.293057 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:22:58.301190 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.avg_trip_distance
+[0m14:22:58.302198 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.avg_trip_distance  [RUN]
+[0m14:22:58.304800 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.avg_trip_distance'
+[0m14:22:58.305803 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.avg_trip_distance
+[0m14:22:58.330989 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.avg_trip_distance"
+[0m14:22:58.337266 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.avg_trip_distance
+[0m14:22:58.411082 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.avg_trip_distance"
+[0m14:22:58.414439 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.avg_trip_distance: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.avg_trip_distance"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`avg_trip_distance`
+  OPTIONS()
+  as SELECT
+    
+  FORMAT_DATE('%Y-%m', DATE(pickup_datetime))
+ AS month,
+    AVG(trip_distance) AS avg_distance
+FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+GROUP BY month
+ORDER BY month;
+
+
+[0m14:22:58.415445 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m14:22:59.850437 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:b482b54f-d3e4-4a73-9005-25a0c27d1cdb&page=queryresults
+[0m14:23:00.952236 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def49b42-6f93-4bcf-b38d-6fc7874e5327', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238FEEAB430>]}
+[0m14:23:00.954446 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.avg_trip_distance  [[32mCREATE VIEW (0 processed)[0m in 2.65s]
+[0m14:23:00.957186 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.avg_trip_distance
+[0m14:23:00.959868 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:23:00.960889 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:23:00.961920 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m14:23:00.962933 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m14:23:00.964211 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.avg_trip_distance' was properly closed.
+[0m14:23:00.966373 [info ] [MainThread]: 
+[0m14:23:00.968392 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.47 seconds (7.47s).
+[0m14:23:00.970390 [debug] [MainThread]: Command end result
+[0m14:23:01.039520 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:23:01.046420 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:23:01.062717 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m14:23:01.063781 [info ] [MainThread]: 
+[0m14:23:01.064977 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:23:01.067139 [info ] [MainThread]: 
+[0m14:23:01.068367 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m14:23:01.072062 [debug] [MainThread]: Command `dbt run` succeeded at 14:23:01.072062 after 16.80 seconds
+[0m14:23:01.074061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238D9534F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DA8BB1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000238DB732B80>]}
+[0m14:23:01.076871 [debug] [MainThread]: Flushing usage events
+[0m14:23:02.342832 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:23:27.713118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CED9E4F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CEFC6AE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CEFC6A1C0>]}
+
+
+============================== 14:23:27.722042 | 85e48f6f-fbbc-42d6-875d-d4b8b7031f88 ==============================
+[0m14:23:27.722042 [info ] [MainThread]: Running with dbt=1.10.5
+[0m14:23:27.723814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --select payment_type_stats', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:23:34.368489 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CEBDD9E50>]}
+[0m14:23:34.497971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C92BBCC40>]}
+[0m14:23:34.500035 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m14:23:35.856463 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m14:23:36.253074 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:23:36.254107 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:23:36.329273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C9326AEE0>]}
+[0m14:23:36.501182 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:23:36.505668 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:23:36.555756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C9327D6A0>]}
+[0m14:23:36.556821 [info ] [MainThread]: Found 5 models, 499 macros
+[0m14:23:36.558938 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C93226460>]}
+[0m14:23:36.561377 [info ] [MainThread]: 
+[0m14:23:36.563390 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:23:36.565833 [info ] [MainThread]: 
+[0m14:23:36.567832 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:23:36.571835 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m14:23:36.573833 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:23:40.956082 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m14:23:40.958448 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:23:41.666663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C93226460>]}
+[0m14:23:41.667979 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:23:41.677049 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.payment_type_stats
+[0m14:23:41.678292 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.payment_type_stats  [RUN]
+[0m14:23:41.680386 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.payment_type_stats'
+[0m14:23:41.681702 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.payment_type_stats
+[0m14:23:41.711200 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.payment_type_stats"
+[0m14:23:41.713895 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.payment_type_stats
+[0m14:23:41.791701 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.payment_type_stats"
+[0m14:23:41.794736 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.payment_type_stats: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.payment_type_stats"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`payment_type_stats`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        payment_type,
+        COUNT(*) AS trips_count,
+        SUM(total_amount) AS total_amount
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+    GROUP BY payment_type
+)
+SELECT
+    payment_type,
+    trips_count,
+    total_amount,
+    
+  SAFE_DIVIDE(total_amount, NULLIF(SUM(total_amount) OVER (), 0)) * 100
+ AS percent_of_total
+FROM trips;
+
+
+[0m14:23:41.796927 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m14:23:42.786387 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:a19056fd-5734-436e-93dd-66cbe828a8d7&page=queryresults
+[0m14:23:43.981263 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '85e48f6f-fbbc-42d6-875d-d4b8b7031f88', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CEFC29460>]}
+[0m14:23:43.983890 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.payment_type_stats  [[32mCREATE VIEW (0 processed)[0m in 2.30s]
+[0m14:23:43.986942 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.payment_type_stats
+[0m14:23:43.989292 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:23:43.991296 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:23:43.992296 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m14:23:43.993298 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m14:23:43.994299 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.payment_type_stats' was properly closed.
+[0m14:23:43.995299 [info ] [MainThread]: 
+[0m14:23:43.997614 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.43 seconds (7.43s).
+[0m14:23:44.000712 [debug] [MainThread]: Command end result
+[0m14:23:44.071301 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:23:44.076787 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:23:44.092462 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m14:23:44.093464 [info ] [MainThread]: 
+[0m14:23:44.095690 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:23:44.096756 [info ] [MainThread]: 
+[0m14:23:44.098902 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m14:23:44.102090 [debug] [MainThread]: Command `dbt run` succeeded at 14:23:44.100974 after 16.55 seconds
+[0m14:23:44.103108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CED9E4F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C92D5C940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022C92BBCC40>]}
+[0m14:23:44.105131 [debug] [MainThread]: Flushing usage events
+[0m14:23:45.241252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:23:54.433910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED1084FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED3309EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED33091C0>]}
+
+
+============================== 14:23:54.442281 | 424266ae-c56d-46b8-9a54-725ffbeaa6f7 ==============================
+[0m14:23:54.442281 [info ] [MainThread]: Running with dbt=1.10.5
+[0m14:23:54.444786 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select top_zones', 'send_anonymous_usage_stats': 'True'}
+[0m14:24:01.085009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF623AA00>]}
+[0m14:24:01.216537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED2A49FA0>]}
+[0m14:24:01.218560 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m14:24:02.481457 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m14:24:02.882661 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:24:02.883693 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:24:02.955734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF6904130>]}
+[0m14:24:03.127010 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:24:03.132448 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:24:03.184341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF69260D0>]}
+[0m14:24:03.186346 [info ] [MainThread]: Found 5 models, 499 macros
+[0m14:24:03.187824 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF68D2370>]}
+[0m14:24:03.190999 [info ] [MainThread]: 
+[0m14:24:03.192008 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:24:03.194146 [info ] [MainThread]: 
+[0m14:24:03.196635 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m14:24:03.201794 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m14:24:03.203963 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:24:06.668021 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m14:24:06.670407 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:24:07.305389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF6352430>]}
+[0m14:24:07.306915 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:24:07.313961 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.top_zones
+[0m14:24:07.315137 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.top_zones .... [RUN]
+[0m14:24:07.317801 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.top_zones'
+[0m14:24:07.319174 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.top_zones
+[0m14:24:07.351591 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.top_zones"
+[0m14:24:07.355114 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.top_zones
+[0m14:24:07.421077 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.top_zones"
+[0m14:24:07.423099 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.top_zones: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.top_zones"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`top_zones`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        pickup_location_id,
+        dropoff_location_id,
+        
+  COALESCE(fare_amount, 0) + COALESCE(tip_amount, 0)
+ AS revenue
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+)
+SELECT
+    pickup_zone.Zone AS pickup_area,
+    drop_zone.Zone AS drop_area,
+    SUM(revenue) AS total_revenue
+FROM trips
+
+  LEFT JOIN `bigquery-public-data.new_york_taxi_trips.taxi_zone_lookup` pickup_zone
+    ON pickup_location_id = pickup_zone.LocationID
+  LEFT JOIN `bigquery-public-data.new_york_taxi_trips.taxi_zone_lookup` drop_zone
+    ON dropoff_location_id = drop_zone.LocationID
+
+GROUP BY pickup_area, drop_area
+ORDER BY total_revenue DESC
+LIMIT 10;
+
+
+[0m14:24:07.424591 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m14:24:08.954631 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:8ebcae24-d24f-48f3-a5d2-efeb7a087703&page=queryresults
+[0m14:24:08.956632 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:8ebcae24-d24f-48f3-a5d2-efeb7a087703&page=queryresults
+[0m14:24:08.966268 [debug] [Thread-1  ]: Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:24:08.971508 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '424266ae-c56d-46b8-9a54-725ffbeaa6f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED0F61040>]}
+[0m14:24:08.974030 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.top_zones  [[31mERROR[0m in 1.65s]
+[0m14:24:08.976194 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.top_zones
+[0m14:24:08.978248 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.top_zones' to be skipped because of status 'error'.  Reason: Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql.
+[0m14:24:08.981522 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:24:08.984139 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:24:08.986199 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m14:24:08.987202 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m14:24:08.989614 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.top_zones' was properly closed.
+[0m14:24:08.990619 [info ] [MainThread]: 
+[0m14:24:08.992075 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 5.79 seconds (5.79s).
+[0m14:24:08.995365 [debug] [MainThread]: Command end result
+[0m14:24:09.058940 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:24:09.064006 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:24:09.079192 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m14:24:09.081194 [info ] [MainThread]: 
+[0m14:24:09.082658 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:24:09.083797 [info ] [MainThread]: 
+[0m14:24:09.086012 [error] [MainThread]: [31mFailure in model top_zones (models\marts\top_zones.sql)[0m
+[0m14:24:09.088038 [error] [MainThread]:   Database Error in model top_zones (models\marts\top_zones.sql)
+  Not found: Table bigquery-public-data:new_york_taxi_trips.taxi_zone_lookup was not found in location US
+  compiled code at target\run\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:24:09.090115 [info ] [MainThread]: 
+[0m14:24:09.092172 [info ] [MainThread]:   compiled code at target\compiled\nyc_taxi_dbt\models\marts\top_zones.sql
+[0m14:24:09.093169 [info ] [MainThread]: 
+[0m14:24:09.095298 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m14:24:09.101256 [debug] [MainThread]: Command `dbt run` failed at 14:24:09.101256 after 14.83 seconds
+[0m14:24:09.103277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED1084FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EF6218970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED2446FA0>]}
+[0m14:24:09.104292 [debug] [MainThread]: Flushing usage events
+[0m14:24:10.953361 [debug] [MainThread]: An error was encountered while trying to flush usage events
