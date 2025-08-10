@@ -1,7 +1,11 @@
-name: 'GCP_ETE'
+name: 'nyc_taxi_dbt'
 version: '1.0'
 config-version: 2
 
-profile: 'GCP_ETE'
+profile: 'GCP_ETE'  # This should match your profile name
 
-model-paths: ["models"]
+# This tells dbt to build models into your 'ny_taxi_proccessed' dataset
+models:
+  nyc_taxi_dbt:
+    +dataset: ny_taxi_proccessed
+    +materialized: view
