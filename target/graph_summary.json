@@ -1,1 +1,1 @@
-{"_invocation_id": "3fb1d099-d254-4e60-82d3-b1d3fe3b8533", "linked": {"0": {"name": "model.GCP_ETE.firstmodel", "type": "model"}}}
+{"_invocation_id": "62aaec3a-4894-405c-9dcd-f02d854e61d2", "linked": {"0": {"name": "model.nyc_taxi_dbt.stg_taxi_trips", "type": "model", "succ": [1]}, "1": {"name": "model.nyc_taxi_dbt.daily_revenue", "type": "model"}}}

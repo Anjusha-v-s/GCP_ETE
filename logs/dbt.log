@@ -673,3 +673,1072 @@ SELECT
 [0m18:15:14.333755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C793D3FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C1E6031F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C7ADCD190>]}
 [0m18:15:14.333755 [debug] [MainThread]: Flushing usage events
 [0m18:15:15.648005 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:10:56.935020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED4783F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED4BB8EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED51B9700>]}
+
+
+============================== 20:10:56.945822 | 0fa01d7c-15da-4645-973b-42a5c711a4f9 ==============================
+[0m20:10:56.945822 [info ] [MainThread]: Running with dbt=1.10.5
+[0m20:10:56.948133 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init nyc_taxi_dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:10:57.008017 [info ] [MainThread]: Setting up your profile.
+[0m20:13:40.775249 [info ] [MainThread]: Profile GCP_ETE written to C:\Users\anjus\projects\GCP_ETE\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:13:40.780688 [debug] [MainThread]: Command `dbt init` succeeded at 20:13:40.779673 after 164.02 seconds
+[0m20:13:40.783073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED4783F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED5AC4D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EED5AC4B50>]}
+[0m20:13:40.784108 [debug] [MainThread]: Flushing usage events
+[0m20:13:42.453781 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:16:30.415307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001788A673F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001788BA21880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001788C8F7DC0>]}
+
+
+============================== 20:16:30.423442 | 84166605-fb83-4bbe-8f6a-6c36e56ca300 ==============================
+[0m20:16:30.423442 [info ] [MainThread]: Running with dbt=1.10.5
+[0m20:16:30.425466 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:16:30.471240 [info ] [MainThread]: dbt version: 1.10.5
+[0m20:16:30.473264 [info ] [MainThread]: python version: 3.9.13
+[0m20:16:30.474266 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m20:16:30.476689 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:16:37.209925 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m20:16:37.211128 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m20:16:37.213139 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m20:16:37.214543 [info ] [MainThread]: adapter type: bigquery
+[0m20:16:37.216580 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:16:37.466478 [info ] [MainThread]: Configuration:
+[0m20:16:37.468597 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:16:37.470118 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:16:37.471425 [info ] [MainThread]: Required dependencies:
+[0m20:16:37.472440 [debug] [MainThread]: Executing "git --help"
+[0m20:16:37.567630 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:16:37.569631 [debug] [MainThread]: STDERR: "b''"
+[0m20:16:37.572629 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:16:37.574975 [info ] [MainThread]: Connection:
+[0m20:16:37.577997 [info ] [MainThread]:   method: oauth
+[0m20:16:37.580238 [info ] [MainThread]:   database: fine-advantage-342106
+[0m20:16:37.581245 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m20:16:37.583916 [info ] [MainThread]:   schema: dbt_yellow_trips
+[0m20:16:37.586293 [info ] [MainThread]:   location: US
+[0m20:16:37.588131 [info ] [MainThread]:   priority: interactive
+[0m20:16:37.590493 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:16:37.592710 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:16:37.594893 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:16:37.595968 [info ] [MainThread]:   job_retries: 1
+[0m20:16:37.598494 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:16:37.599501 [info ] [MainThread]:   job_execution_timeout_seconds: 500
+[0m20:16:37.600510 [info ] [MainThread]:   timeout_seconds: 500
+[0m20:16:37.602855 [info ] [MainThread]:   client_id: None
+[0m20:16:37.605310 [info ] [MainThread]:   token_uri: None
+[0m20:16:37.606323 [info ] [MainThread]:   compute_region: None
+[0m20:16:37.608762 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:16:37.609899 [info ] [MainThread]:   gcs_bucket: None
+[0m20:16:37.611234 [info ] [MainThread]:   dataproc_batch: None
+[0m20:16:37.613476 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m20:16:39.503848 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:16:39.505300 [debug] [MainThread]: On debug: select 1 as id
+[0m20:16:39.506334 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:16:51.577967 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m20:16:51.580215 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m20:16:51.581249 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m20:16:51.582280 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:16:51.584852 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:16:51.587028 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:16:51.590744 [debug] [MainThread]: Command `dbt debug` failed at 20:16:51.590744 after 21.36 seconds
+[0m20:16:51.593816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001788A673F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178AF94C550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178AF952C40>]}
+[0m20:16:51.596287 [debug] [MainThread]: Flushing usage events
+[0m20:16:53.051084 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:17:39.954044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C83DD9B040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C83E15E130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C83EE89F40>]}
+
+
+============================== 20:17:39.961918 | 9cdb36cd-2580-4fec-be96-a47b5b029d0f ==============================
+[0m20:17:39.961918 [info ] [MainThread]: Running with dbt=1.10.5
+[0m20:17:39.963947 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:17:40.012339 [info ] [MainThread]: dbt version: 1.10.5
+[0m20:17:40.014399 [info ] [MainThread]: python version: 3.9.13
+[0m20:17:40.015656 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m20:17:40.016930 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:17:46.621011 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m20:17:46.622019 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m20:17:46.624106 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m20:17:46.626057 [info ] [MainThread]: adapter type: bigquery
+[0m20:17:46.628137 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:17:46.871563 [info ] [MainThread]: Configuration:
+[0m20:17:46.873609 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:17:46.875134 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:17:46.876142 [info ] [MainThread]: Required dependencies:
+[0m20:17:46.877987 [debug] [MainThread]: Executing "git --help"
+[0m20:17:46.964848 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:17:46.966856 [debug] [MainThread]: STDERR: "b''"
+[0m20:17:46.967852 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:17:46.969856 [info ] [MainThread]: Connection:
+[0m20:17:46.970989 [info ] [MainThread]:   method: oauth
+[0m20:17:46.972311 [info ] [MainThread]:   database: fine-advantage-342106
+[0m20:17:46.974672 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m20:17:46.976859 [info ] [MainThread]:   schema: ny_taxi_proccessed
+[0m20:17:46.978860 [info ] [MainThread]:   location: US
+[0m20:17:46.980860 [info ] [MainThread]:   priority: None
+[0m20:17:46.982370 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:17:46.984412 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:17:46.985646 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:17:46.987797 [info ] [MainThread]:   job_retries: 1
+[0m20:17:46.988997 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:17:46.991545 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:17:46.992788 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:17:46.995119 [info ] [MainThread]:   client_id: None
+[0m20:17:46.997332 [info ] [MainThread]:   token_uri: None
+[0m20:17:46.998357 [info ] [MainThread]:   compute_region: None
+[0m20:17:47.000811 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:17:47.003119 [info ] [MainThread]:   gcs_bucket: None
+[0m20:17:47.004458 [info ] [MainThread]:   dataproc_batch: None
+[0m20:17:47.005459 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m20:17:48.854139 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:17:48.855171 [debug] [MainThread]: On debug: select 1 as id
+[0m20:17:48.856230 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:18:00.801352 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m20:18:00.802361 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m20:18:00.804393 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m20:18:00.805513 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:18:00.806527 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:18:00.808909 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:18:00.811954 [debug] [MainThread]: Command `dbt debug` failed at 20:18:00.811954 after 21.02 seconds
+[0m20:18:00.813997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C83DD9B040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8620D10A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8620D1970>]}
+[0m20:18:00.815038 [debug] [MainThread]: Flushing usage events
+[0m20:18:02.110565 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:45:45.169308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF7DF23F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF7E358400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF7F19D310>]}
+
+
+============================== 20:45:45.180562 | 2fc3df27-2a9d-4cfd-8b44-7f380f9c59bc ==============================
+[0m20:45:45.180562 [info ] [MainThread]: Running with dbt=1.10.5
+[0m20:45:45.182605 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m20:45:45.251197 [info ] [MainThread]: dbt version: 1.10.5
+[0m20:45:45.253381 [info ] [MainThread]: python version: 3.9.13
+[0m20:45:45.254406 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m20:45:45.256927 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:45:54.321663 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m20:45:54.323675 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m20:45:54.324674 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m20:45:54.327047 [info ] [MainThread]: adapter type: bigquery
+[0m20:45:54.328254 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:45:54.572573 [info ] [MainThread]: Configuration:
+[0m20:45:54.574761 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:45:54.577221 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:45:54.578301 [info ] [MainThread]: Required dependencies:
+[0m20:45:54.580490 [debug] [MainThread]: Executing "git --help"
+[0m20:45:54.675591 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:45:54.676953 [debug] [MainThread]: STDERR: "b''"
+[0m20:45:54.678958 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:45:54.680114 [info ] [MainThread]: Connection:
+[0m20:45:54.681583 [info ] [MainThread]:   method: oauth
+[0m20:45:54.682762 [info ] [MainThread]:   database: fine-advantage-342106
+[0m20:45:54.683988 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m20:45:54.685011 [info ] [MainThread]:   schema: ny_taxi_proccessed
+[0m20:45:54.686017 [info ] [MainThread]:   location: US
+[0m20:45:54.688392 [info ] [MainThread]:   priority: None
+[0m20:45:54.689403 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:45:54.691515 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:45:54.692534 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:45:54.695023 [info ] [MainThread]:   job_retries: 1
+[0m20:45:54.696034 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:45:54.697448 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:45:54.698457 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:45:54.699951 [info ] [MainThread]:   client_id: None
+[0m20:45:54.702417 [info ] [MainThread]:   token_uri: None
+[0m20:45:54.703427 [info ] [MainThread]:   compute_region: None
+[0m20:45:54.704430 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:45:54.705594 [info ] [MainThread]:   gcs_bucket: None
+[0m20:45:54.708053 [info ] [MainThread]:   dataproc_batch: None
+[0m20:45:54.710194 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m20:45:56.780292 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:45:56.782764 [debug] [MainThread]: On debug: select 1 as id
+[0m20:45:56.783773 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:46:00.820078 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fine-advantage-342106&j=bq:US:dd14b569-fe17-470a-ad09-a5b15366d15f&page=queryresults
+[0m20:46:00.822980 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:46:00.824992 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:46:00.826289 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project fine-advantage-342106: User does not have bigquery.jobs.create permission in project fine-advantage-342106.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:46:00.830091 [debug] [MainThread]: Command `dbt debug` failed at 20:46:00.828581 after 15.84 seconds
+[0m20:46:00.831125 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:46:00.833140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF7DF23F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF226E3E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BF226193A0>]}
+[0m20:46:00.834141 [debug] [MainThread]: Flushing usage events
+[0m20:46:02.082716 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:48:37.939644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE1E8B3FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE1FB262B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE1ECE78E0>]}
+
+
+============================== 20:48:37.947978 | 257d3dec-22a9-4bd3-95f8-23438d9eab0c ==============================
+[0m20:48:37.947978 [info ] [MainThread]: Running with dbt=1.10.5
+[0m20:48:37.951080 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:48:38.001457 [info ] [MainThread]: dbt version: 1.10.5
+[0m20:48:38.003581 [info ] [MainThread]: python version: 3.9.13
+[0m20:48:38.004602 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m20:48:38.007104 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m20:48:45.963190 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m20:48:45.964191 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m20:48:45.967388 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m20:48:45.968420 [info ] [MainThread]: adapter type: bigquery
+[0m20:48:45.969905 [info ] [MainThread]: adapter version: 1.10.0
+[0m20:48:46.200864 [info ] [MainThread]: Configuration:
+[0m20:48:46.203005 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:48:46.204057 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:48:46.206123 [info ] [MainThread]: Required dependencies:
+[0m20:48:46.209237 [debug] [MainThread]: Executing "git --help"
+[0m20:48:46.314088 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:48:46.316436 [debug] [MainThread]: STDERR: "b''"
+[0m20:48:46.317460 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:48:46.320266 [info ] [MainThread]: Connection:
+[0m20:48:46.321445 [info ] [MainThread]:   method: oauth
+[0m20:48:46.322890 [info ] [MainThread]:   database: fine-advantage-342106
+[0m20:48:46.325404 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m20:48:46.327708 [info ] [MainThread]:   schema: ny_taxi_proccessed
+[0m20:48:46.328715 [info ] [MainThread]:   location: US
+[0m20:48:46.331304 [info ] [MainThread]:   priority: None
+[0m20:48:46.333585 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:48:46.334659 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:48:46.337035 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:48:46.339862 [info ] [MainThread]:   job_retries: 1
+[0m20:48:46.342015 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:48:46.345237 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:48:46.346484 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:48:46.348817 [info ] [MainThread]:   client_id: None
+[0m20:48:46.351122 [info ] [MainThread]:   token_uri: None
+[0m20:48:46.353120 [info ] [MainThread]:   compute_region: None
+[0m20:48:46.355751 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:48:46.358249 [info ] [MainThread]:   gcs_bucket: None
+[0m20:48:46.361689 [info ] [MainThread]:   dataproc_batch: None
+[0m20:48:46.364696 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m20:48:48.363633 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:48:48.364751 [debug] [MainThread]: On debug: select 1 as id
+[0m20:48:48.365759 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:48:52.178894 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fine-advantage-342106&j=bq:US:de44ac90-53e6-41b9-b79f-3e9e45d40cfe&page=queryresults
+[0m20:48:52.184181 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:48:52.187313 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:48:52.188312 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project fine-advantage-342106: User does not have bigquery.jobs.create permission in project fine-advantage-342106.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:48:52.192911 [debug] [MainThread]: Command `dbt debug` failed at 20:48:52.192911 after 14.45 seconds
+[0m20:48:52.193974 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:48:52.195408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE1E8B3FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE1FB07D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CE42BE35B0>]}
+[0m20:48:52.197666 [debug] [MainThread]: Flushing usage events
+[0m20:48:53.694031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:18:40.811738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D93213F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D93647400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D9447D310>]}
+
+
+============================== 21:18:40.822269 | 7c759555-2f10-4759-b55f-436c52084329 ==============================
+[0m21:18:40.822269 [info ] [MainThread]: Running with dbt=1.10.5
+[0m21:18:40.824287 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:18:40.888598 [info ] [MainThread]: dbt version: 1.10.5
+[0m21:18:40.890062 [info ] [MainThread]: python version: 3.9.13
+[0m21:18:40.892406 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m21:18:40.893867 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m21:18:49.575247 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m21:18:49.577339 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m21:18:49.578475 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m21:18:49.580560 [info ] [MainThread]: adapter type: bigquery
+[0m21:18:49.581859 [info ] [MainThread]: adapter version: 1.10.0
+[0m21:18:49.810248 [info ] [MainThread]: Configuration:
+[0m21:18:49.811251 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:18:49.813253 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:18:49.814253 [info ] [MainThread]: Required dependencies:
+[0m21:18:49.816254 [debug] [MainThread]: Executing "git --help"
+[0m21:18:49.905507 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:18:49.906506 [debug] [MainThread]: STDERR: "b''"
+[0m21:18:49.908507 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:18:49.909966 [info ] [MainThread]: Connection:
+[0m21:18:49.911978 [info ] [MainThread]:   method: oauth
+[0m21:18:49.913990 [info ] [MainThread]:   database: fine-advantage-342106
+[0m21:18:49.915367 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m21:18:49.916797 [info ] [MainThread]:   schema: ny_taxi_proccessed
+[0m21:18:49.918224 [info ] [MainThread]:   location: US
+[0m21:18:49.920420 [info ] [MainThread]:   priority: None
+[0m21:18:49.922459 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:18:49.924761 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:18:49.925891 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:18:49.927053 [info ] [MainThread]:   job_retries: 1
+[0m21:18:49.929521 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:18:49.930939 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:18:49.932377 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:18:49.933813 [info ] [MainThread]:   client_id: None
+[0m21:18:49.935857 [info ] [MainThread]:   token_uri: None
+[0m21:18:49.937198 [info ] [MainThread]:   compute_region: None
+[0m21:18:49.939264 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:18:49.940279 [info ] [MainThread]:   gcs_bucket: None
+[0m21:18:49.942760 [info ] [MainThread]:   dataproc_batch: None
+[0m21:18:49.945489 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m21:18:52.100666 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:18:52.102668 [debug] [MainThread]: On debug: select 1 as id
+[0m21:18:52.103668 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:18:56.019691 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fine-advantage-342106&j=bq:US:d2e6975e-120b-4f3c-ad7d-8fca4768da87&page=queryresults
+[0m21:18:56.024946 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:18:56.027168 [info ] [MainThread]: [31m1 check failed:[0m
+[0m21:18:56.028579 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Caller does not have required permission to use project fine-advantage-342106. Grant the caller the roles/serviceusage.serviceUsageConsumer role, or a custom role with the serviceusage.services.use permission, by visiting https://console.developers.google.com/iam-admin/iam/project?project=fine-advantage-342106 and then retry. Propagation of the new permission may take a few minutes.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:18:56.031587 [debug] [MainThread]: Command `dbt debug` failed at 21:18:56.031587 after 15.44 seconds
+[0m21:18:56.034011 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:18:56.036528 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D93213F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DB757BB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DB757B6D0>]}
+[0m21:18:56.037531 [debug] [MainThread]: Flushing usage events
+[0m21:18:58.880092 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:24:38.243305 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246D2EA3F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246D32D7400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246D410D310>]}
+
+
+============================== 21:24:38.255854 | 88f497c1-b280-4d01-bd6b-cc008ae86521 ==============================
+[0m21:24:38.255854 [info ] [MainThread]: Running with dbt=1.10.5
+[0m21:24:38.260058 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:24:38.357843 [info ] [MainThread]: dbt version: 1.10.5
+[0m21:24:38.360851 [info ] [MainThread]: python version: 3.9.13
+[0m21:24:38.363181 [info ] [MainThread]: python path: C:\Users\anjus\projects\GCP_ETE\venv\Scripts\python.exe
+[0m21:24:38.365181 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m21:24:46.760965 [info ] [MainThread]: Using profiles dir at C:\Users\anjus\projects\GCP_ETE
+[0m21:24:46.763993 [info ] [MainThread]: Using profiles.yml file at C:\Users\anjus\projects\GCP_ETE\profiles.yml
+[0m21:24:46.765349 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\anjus\projects\GCP_ETE\dbt_project.yml
+[0m21:24:46.766637 [info ] [MainThread]: adapter type: bigquery
+[0m21:24:46.768667 [info ] [MainThread]: adapter version: 1.10.0
+[0m21:24:47.032655 [info ] [MainThread]: Configuration:
+[0m21:24:47.034676 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:24:47.035752 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:24:47.037833 [info ] [MainThread]: Required dependencies:
+[0m21:24:47.039263 [debug] [MainThread]: Executing "git --help"
+[0m21:24:47.133681 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:24:47.134687 [debug] [MainThread]: STDERR: "b''"
+[0m21:24:47.136700 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:24:47.137997 [info ] [MainThread]: Connection:
+[0m21:24:47.139005 [info ] [MainThread]:   method: oauth
+[0m21:24:47.140214 [info ] [MainThread]:   database: fine-advantage-342106
+[0m21:24:47.142517 [info ] [MainThread]:   execution_project: fine-advantage-342106
+[0m21:24:47.143602 [info ] [MainThread]:   schema: ny_taxi_proccessed
+[0m21:24:47.145903 [info ] [MainThread]:   location: US
+[0m21:24:47.146902 [info ] [MainThread]:   priority: None
+[0m21:24:47.148907 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:24:47.150904 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:24:47.151905 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:24:47.154447 [info ] [MainThread]:   job_retries: 1
+[0m21:24:47.156710 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:24:47.158228 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:24:47.159487 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:24:47.160808 [info ] [MainThread]:   client_id: None
+[0m21:24:47.162814 [info ] [MainThread]:   token_uri: None
+[0m21:24:47.164238 [info ] [MainThread]:   compute_region: None
+[0m21:24:47.166779 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:24:47.169436 [info ] [MainThread]:   gcs_bucket: None
+[0m21:24:47.170452 [info ] [MainThread]:   dataproc_batch: None
+[0m21:24:47.172736 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m21:24:49.212540 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:24:49.214551 [debug] [MainThread]: On debug: select 1 as id
+[0m21:24:49.215844 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:24:53.500821 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fine-advantage-342106&j=bq:US:8901b661-7987-4f62-a52b-b62c5f249239&page=queryresults
+[0m21:24:55.024121 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:24:55.026167 [info ] [MainThread]: [32mAll checks passed![0m
+[0m21:24:55.029190 [debug] [MainThread]: Command `dbt debug` succeeded at 21:24:55.028184 after 16.96 seconds
+[0m21:24:55.030196 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:24:55.031202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246D2EA3F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F719CCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246F71DAA60>]}
+[0m21:24:55.033218 [debug] [MainThread]: Flushing usage events
+[0m21:24:56.773217 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:06:35.965622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DCCB4FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DDF6AEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DDF6A1C0>]}
+
+
+============================== 11:06:35.980930 | 78f503d7-ac9e-4259-b9f3-94a69fbcc627 ==============================
+[0m11:06:35.980930 [info ] [MainThread]: Running with dbt=1.10.5
+[0m11:06:35.983443 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select firstmodel', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:06:50.097468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DA0D9E50>]}
+[0m11:06:50.264602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224FFF1D610>]}
+[0m11:06:50.265608 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m11:06:52.280408 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m11:06:52.524039 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m11:06:52.526555 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m11:06:52.530570 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DD6A2550>]}
+[0m11:06:58.251893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022481694130>]}
+[0m11:06:58.427379 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:06:58.467787 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:06:58.553537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022481788850>]}
+[0m11:06:58.555136 [info ] [MainThread]: Found 1 model, 494 macros
+[0m11:06:58.556375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022481789400>]}
+[0m11:06:58.558864 [info ] [MainThread]: 
+[0m11:06:58.560745 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:06:58.563033 [info ] [MainThread]: 
+[0m11:06:58.566155 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:06:58.568766 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m11:06:58.571410 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:07:05.979224 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_fair-gist-467212-e2, now create_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed)
+[0m11:07:05.982840 [debug] [ThreadPool]: Creating schema "database: "fair-gist-467212-e2"
+schema: "ny_taxi_proccessed_ny_taxi_proccessed"
+"
+[0m11:07:06.010785 [debug] [ThreadPool]: On create_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "connection_name": "create_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed"} */
+create schema if not exists `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`
+  
+[0m11:07:06.011881 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m11:07:07.095326 [debug] [ThreadPool]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:85c07956-1f29-45ae-834f-e5197e35196b&page=queryresults
+[0m11:07:19.707568 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m11:07:19.709494 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:07:20.421047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224817883A0>]}
+[0m11:07:20.421047 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:07:20.440470 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.firstmodel
+[0m11:07:20.440470 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.firstmodel ... [RUN]
+[0m11:07:20.444319 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.firstmodel'
+[0m11:07:20.445846 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.firstmodel
+[0m11:07:20.463940 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.firstmodel"
+[0m11:07:20.463940 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.firstmodel
+[0m11:07:20.528857 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.firstmodel"
+[0m11:07:20.533859 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.firstmodel: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.firstmodel"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`firstmodel`
+  OPTIONS()
+  as -- models/my_first_model.sql
+
+SELECT
+  'Hello GCP!' AS greeting,
+  CURRENT_DATE() AS today;
+
+
+[0m11:07:20.537893 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m11:07:21.379673 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:f2014f42-e7e5-434c-91b0-cebddfa4a5eb&page=queryresults
+[0m11:07:22.401443 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '78f503d7-ac9e-4259-b9f3-94a69fbcc627', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022481BC38E0>]}
+[0m11:07:22.404831 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.firstmodel  [[32mCREATE VIEW (0 processed)[0m in 1.95s]
+[0m11:07:22.409466 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.firstmodel
+[0m11:07:22.412655 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:07:22.414352 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:07:22.414352 [debug] [MainThread]: Connection 'create_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m11:07:22.420841 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m11:07:22.422654 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.firstmodel' was properly closed.
+[0m11:07:22.422654 [info ] [MainThread]: 
+[0m11:07:22.424777 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 23.86 seconds (23.86s).
+[0m11:07:22.427042 [debug] [MainThread]: Command end result
+[0m11:07:22.500113 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:07:22.505826 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:07:22.521766 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m11:07:22.521766 [info ] [MainThread]: 
+[0m11:07:22.521766 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:07:22.531489 [info ] [MainThread]: 
+[0m11:07:22.531489 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m11:07:22.537239 [debug] [MainThread]: Command `dbt run` succeeded at 11:07:22.536870 after 46.82 seconds
+[0m11:07:22.538814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DCCB4FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224DB6E0670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000224FFF1D610>]}
+[0m11:07:22.541460 [debug] [MainThread]: Flushing usage events
+[0m11:07:26.077933 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:51:44.209731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3AB554F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3AD7DAE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3AD7DA1C0>]}
+
+
+============================== 11:51:44.219001 | 2f1a85ec-7f77-4b4c-b212-85fe1828f069 ==============================
+[0m11:51:44.219001 [info ] [MainThread]: Running with dbt=1.10.5
+[0m11:51:44.221398 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --select stg_taxi_trips', 'send_anonymous_usage_stats': 'True'}
+[0m11:51:55.909901 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3CA668640>]}
+[0m11:51:56.050071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D06E9400>]}
+[0m11:51:56.052299 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m11:51:58.912123 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m11:52:01.643911 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m11:52:01.645978 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\models\staging\stg_taxi_trips.sql
+[0m11:52:01.647013 [debug] [MainThread]: Partial parsing: deleted file: nyc_taxi_dbt://models\firstmodel.sql
+[0m11:52:02.170499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D0F71130>]}
+[0m11:52:02.343310 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:52:02.381657 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:52:02.450404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D0D8F700>]}
+[0m11:52:02.452612 [info ] [MainThread]: Found 1 model, 494 macros
+[0m11:52:02.454705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D08E3A00>]}
+[0m11:52:02.456941 [info ] [MainThread]: 
+[0m11:52:02.458949 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:52:02.461213 [info ] [MainThread]: 
+[0m11:52:02.464220 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:52:02.468220 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m11:52:02.470221 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:52:11.948747 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m11:52:11.951092 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:52:12.665943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D08287F0>]}
+[0m11:52:12.668288 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:52:12.682919 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:52:12.685316 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.stg_taxi_trips  [RUN]
+[0m11:52:12.687105 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.stg_taxi_trips'
+[0m11:52:12.689343 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:52:12.711002 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.stg_taxi_trips"
+[0m11:52:12.717486 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:52:12.792960 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.stg_taxi_trips"
+[0m11:52:12.797670 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.stg_taxi_trips: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.stg_taxi_trips"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+  OPTIONS()
+  as SELECT
+    pickup_datetime,
+    dropoff_datetime,
+    passenger_count,
+    trip_distance,
+    fare_amount,
+    tip_amount,
+    total_amount,
+    pickup_location_id,
+    dropoff_location_id,
+    payment_type
+FROM `bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2022`;
+
+
+[0m11:52:12.799118 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m11:52:13.692138 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:ed20d822-0fa0-42b4-8dc9-ce2c39ab0908&page=queryresults
+[0m11:52:19.769506 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '2f1a85ec-7f77-4b4c-b212-85fe1828f069', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D10548E0>]}
+[0m11:52:19.771896 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.stg_taxi_trips  [[32mCREATE VIEW (0 processed)[0m in 7.08s]
+[0m11:52:19.774399 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:52:19.776467 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:52:19.778637 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:52:19.779651 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m11:52:19.780665 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m11:52:19.781769 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.stg_taxi_trips' was properly closed.
+[0m11:52:19.784002 [info ] [MainThread]: 
+[0m11:52:19.786329 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 17.32 seconds (17.32s).
+[0m11:52:19.788813 [debug] [MainThread]: Command end result
+[0m11:52:19.851366 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:52:19.855764 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:52:19.876069 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m11:52:19.878179 [info ] [MainThread]: 
+[0m11:52:19.880209 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:52:19.881385 [info ] [MainThread]: 
+[0m11:52:19.883885 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m11:52:19.886024 [debug] [MainThread]: Command `dbt run` succeeded at 11:52:19.886024 after 35.90 seconds
+[0m11:52:19.888061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3AB554F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3D06E9400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3AC8944F0>]}
+[0m11:52:19.889435 [debug] [MainThread]: Flushing usage events
+[0m11:52:21.058170 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:54:32.265430 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F843E4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8666AE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F8666A1C0>]}
+
+
+============================== 11:54:32.273832 | ee359891-26df-4412-80d6-cdb7a5455597 ==============================
+[0m11:54:32.273832 [info ] [MainThread]: Running with dbt=1.10.5
+[0m11:54:32.275873 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select stg_taxi_trips', 'send_anonymous_usage_stats': 'True'}
+[0m11:54:39.638940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F857E7AF0>]}
+[0m11:54:39.795187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F866296A0>]}
+[0m11:54:39.797300 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m11:54:41.200188 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m11:54:41.587966 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m11:54:41.590175 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\staging\stg_taxi_trips.sql
+[0m11:54:41.591420 [debug] [MainThread]: Partial parsing: deleted file: nyc_taxi_dbt://models\models\staging\stg_taxi_trips.sql
+[0m11:54:42.155060 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9DF0130>]}
+[0m11:54:42.326145 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:54:42.331648 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:54:42.385435 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9B1D070>]}
+[0m11:54:42.387682 [info ] [MainThread]: Found 1 model, 494 macros
+[0m11:54:42.389714 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9DC50A0>]}
+[0m11:54:42.391142 [info ] [MainThread]: 
+[0m11:54:42.394651 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m11:54:42.397376 [info ] [MainThread]: 
+[0m11:54:42.400818 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m11:54:42.411771 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m11:54:42.412964 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:54:46.361977 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m11:54:46.364046 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m11:54:47.095400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9C4B5B0>]}
+[0m11:54:47.097857 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:54:47.104725 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:54:47.106735 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.stg_taxi_trips  [RUN]
+[0m11:54:47.108907 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.stg_taxi_trips'
+[0m11:54:47.110944 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:54:47.134411 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.stg_taxi_trips"
+[0m11:54:47.138703 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:54:47.225474 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.stg_taxi_trips"
+[0m11:54:47.233198 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.stg_taxi_trips: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.stg_taxi_trips"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+  OPTIONS()
+  as SELECT
+    pickup_datetime,
+    dropoff_datetime,
+    passenger_count,
+    trip_distance,
+    fare_amount,
+    tip_amount,
+    total_amount,
+    pickup_location_id,
+    dropoff_location_id,
+    payment_type
+FROM `bigquery-public-data.new_york_taxi_trips.tlc_yellow_trips_2022`;
+
+
+[0m11:54:47.235661 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m11:54:48.987006 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:821c8955-a427-48eb-9b9f-12ff8e97a367&page=queryresults
+[0m11:54:50.643457 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ee359891-26df-4412-80d6-cdb7a5455597', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9ED1C40>]}
+[0m11:54:50.644453 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.stg_taxi_trips  [[32mCREATE VIEW (0 processed)[0m in 3.53s]
+[0m11:54:50.647400 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.stg_taxi_trips
+[0m11:54:50.650549 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m11:54:50.651554 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m11:54:50.652561 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m11:54:50.653570 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m11:54:50.655010 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.stg_taxi_trips' was properly closed.
+[0m11:54:50.656485 [info ] [MainThread]: 
+[0m11:54:50.658513 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 8.26 seconds (8.26s).
+[0m11:54:50.661747 [debug] [MainThread]: Command end result
+[0m11:54:50.721088 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m11:54:50.725655 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m11:54:50.742366 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m11:54:50.743423 [info ] [MainThread]: 
+[0m11:54:50.744857 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m11:54:50.746896 [info ] [MainThread]: 
+[0m11:54:50.749242 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m11:54:50.752736 [debug] [MainThread]: Command `dbt run` succeeded at 11:54:50.751721 after 18.68 seconds
+[0m11:54:50.753771 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F843E4F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FA9C66130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021F866296A0>]}
+[0m11:54:50.754804 [debug] [MainThread]: Flushing usage events
+[0m11:54:52.081035 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:49:25.960582 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020795614F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207968C9E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207968C91C0>]}
+
+
+============================== 13:49:25.971387 | b67fb165-9fdf-48db-a933-c4aa325d55f7 ==============================
+[0m13:49:25.971387 [info ] [MainThread]: Running with dbt=1.10.5
+[0m13:49:25.973775 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --select daily_revenue', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:49:34.037544 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020796046A90>]}
+[0m13:49:34.167888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002079603DC70>]}
+[0m13:49:34.169397 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:49:35.603795 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m13:49:36.039781 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m13:49:36.041846 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://models\marts\daily_revenue.sql
+[0m13:49:36.566268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207B999A460>]}
+[0m13:49:36.726114 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:49:36.732648 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:49:36.800075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207B9E83A30>]}
+[0m13:49:36.802081 [info ] [MainThread]: Found 2 models, 494 macros
+[0m13:49:36.803351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207B9FB75B0>]}
+[0m13:49:36.805860 [info ] [MainThread]: 
+[0m13:49:36.806865 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:49:36.810326 [info ] [MainThread]: 
+[0m13:49:36.812462 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:49:36.817090 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m13:49:36.819090 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:49:41.176286 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m13:49:41.177295 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:49:41.740895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207B998BB20>]}
+[0m13:49:41.743058 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:49:41.754862 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.daily_revenue
+[0m13:49:41.757048 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [RUN]
+[0m13:49:41.759079 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.daily_revenue'
+[0m13:49:41.760077 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.daily_revenue
+[0m13:49:41.786458 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m13:49:41.946847 [debug] [Thread-1  ]: Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'revenue_calc' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m13:49:41.951512 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b67fb165-9fdf-48db-a933-c4aa325d55f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020794521D00>]}
+[0m13:49:41.953928 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [[31mERROR[0m in 0.19s]
+[0m13:49:41.955939 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.daily_revenue
+[0m13:49:41.957185 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.daily_revenue' to be skipped because of status 'error'.  Reason: Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'revenue_calc' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps"..
+[0m13:49:41.959894 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:49:41.962024 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:49:41.963024 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m13:49:41.964042 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m13:49:41.965340 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.daily_revenue' was properly closed.
+[0m13:49:41.966354 [info ] [MainThread]: 
+[0m13:49:41.967606 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 5.15 seconds (5.15s).
+[0m13:49:41.970766 [debug] [MainThread]: Command end result
+[0m13:49:42.035271 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:49:42.041098 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:49:42.055939 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m13:49:42.057991 [info ] [MainThread]: 
+[0m13:49:42.058990 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m13:49:42.060480 [info ] [MainThread]: 
+[0m13:49:42.062951 [error] [MainThread]: [31mFailure in model daily_revenue (models\marts\daily_revenue.sql)[0m
+[0m13:49:42.065256 [error] [MainThread]:   Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'revenue_calc' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m13:49:42.066740 [info ] [MainThread]: 
+[0m13:49:42.069132 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:49:42.071543 [debug] [MainThread]: Command `dbt run` failed at 13:49:42.071543 after 16.30 seconds
+[0m13:49:42.073631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020795614F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207B9832070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000207BA02EE80>]}
+[0m13:49:42.074900 [debug] [MainThread]: Flushing usage events
+[0m13:49:43.380763 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:51:29.342173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411E3FC040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024120689F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024120689190>]}
+
+
+============================== 13:51:29.349713 | 4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc ==============================
+[0m13:51:29.349713 [info ] [MainThread]: Running with dbt=1.10.5
+[0m13:51:29.352132 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --select daily_revenue', 'send_anonymous_usage_stats': 'True'}
+[0m13:51:36.003282 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024143590070>]}
+[0m13:51:36.142426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411FDF9700>]}
+[0m13:51:36.143427 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:51:37.500569 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m13:51:37.930719 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+[0m13:51:37.933226 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://macros\revenue_calc.sql
+[0m13:51:37.936234 [debug] [MainThread]: Partial parsing: deleted file: nyc_taxi_dbt://macros\pro1.sql
+[0m13:51:38.103003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024143C99E50>]}
+[0m13:51:38.266631 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:51:38.271305 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:51:38.319045 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024143CC4970>]}
+[0m13:51:38.321232 [info ] [MainThread]: Found 2 models, 495 macros
+[0m13:51:38.322477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024143C75FA0>]}
+[0m13:51:38.324534 [info ] [MainThread]: 
+[0m13:51:38.326537 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:51:38.327558 [info ] [MainThread]: 
+[0m13:51:38.331350 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:51:38.335653 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m13:51:38.336654 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:51:41.791236 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m13:51:41.793757 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:51:42.500662 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411DE07670>]}
+[0m13:51:42.501902 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:51:42.509622 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.daily_revenue
+[0m13:51:42.511891 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [RUN]
+[0m13:51:42.515277 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.daily_revenue'
+[0m13:51:42.517289 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.daily_revenue
+[0m13:51:42.557255 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m13:51:42.565322 [debug] [Thread-1  ]: Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'date_filter' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m13:51:42.572099 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4fc9b8cb-c93e-483c-9663-e1d5ecda9cbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411E2D5910>]}
+[0m13:51:42.574358 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [[31mERROR[0m in 0.05s]
+[0m13:51:42.576836 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.daily_revenue
+[0m13:51:42.579021 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.daily_revenue' to be skipped because of status 'error'.  Reason: Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'date_filter' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps"..
+[0m13:51:42.582409 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:51:42.584679 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:51:42.586139 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m13:51:42.587145 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m13:51:42.589484 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.daily_revenue' was properly closed.
+[0m13:51:42.590938 [info ] [MainThread]: 
+[0m13:51:42.593059 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.26 seconds (4.26s).
+[0m13:51:42.595472 [debug] [MainThread]: Command end result
+[0m13:51:42.670713 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:51:42.675861 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:51:42.695452 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m13:51:42.697477 [info ] [MainThread]: 
+[0m13:51:42.700264 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m13:51:42.702411 [info ] [MainThread]: 
+[0m13:51:42.705784 [error] [MainThread]: [31mFailure in model daily_revenue (models\marts\daily_revenue.sql)[0m
+[0m13:51:42.708786 [error] [MainThread]:   Compilation Error in model daily_revenue (models\marts\daily_revenue.sql)
+  'date_filter' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m13:51:42.712786 [info ] [MainThread]: 
+[0m13:51:42.718787 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:51:42.723790 [debug] [MainThread]: Command `dbt run` failed at 13:51:42.723790 after 13.54 seconds
+[0m13:51:42.725788 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411E3FC040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411C7DAC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002411F7B6190>]}
+[0m13:51:42.728789 [debug] [MainThread]: Flushing usage events
+[0m13:51:43.869623 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:52:36.307499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BB6A4F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BC95AF10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BC95A0D0>]}
+
+
+============================== 13:52:36.315882 | 46677837-021f-4d81-9db2-9920202ba573 ==============================
+[0m13:52:36.315882 [info ] [MainThread]: Running with dbt=1.10.5
+[0m13:52:36.317893 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select daily_revenue', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:52:42.832984 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BBA4F3D0>]}
+[0m13:52:42.966612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BC7A45E0>]}
+[0m13:52:42.968676 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:52:44.236955 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m13:52:44.678652 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+[0m13:52:44.680738 [debug] [MainThread]: Partial parsing: added file: nyc_taxi_dbt://macros\date_filter.sql
+[0m13:52:44.838520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DFF6DF10>]}
+[0m13:52:45.002166 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:52:45.007527 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:52:45.058835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DFF8E130>]}
+[0m13:52:45.061061 [info ] [MainThread]: Found 2 models, 496 macros
+[0m13:52:45.062075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DFF01370>]}
+[0m13:52:45.064710 [info ] [MainThread]: 
+[0m13:52:45.066733 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:52:45.069025 [info ] [MainThread]: 
+[0m13:52:45.072100 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:52:45.077329 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m13:52:45.081198 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:52:48.975598 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m13:52:48.977623 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:52:49.680679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DF86A7F0>]}
+[0m13:52:49.683341 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:52:49.694185 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.daily_revenue
+[0m13:52:49.695244 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [RUN]
+[0m13:52:49.697793 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.daily_revenue'
+[0m13:52:49.699799 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.daily_revenue
+[0m13:52:49.735668 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.daily_revenue"
+[0m13:52:49.740545 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.daily_revenue
+[0m13:52:49.855737 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.daily_revenue"
+[0m13:52:49.859008 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.daily_revenue: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.daily_revenue"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`daily_revenue`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        DATE(pickup_datetime) AS trip_date,
+        COUNT(*) AS trip_count,
+        
+  COALESCE(fare_amount, 0) + COALESCE(tip_amount, 0)
+ AS revenue
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+    WHERE 
+  pickup_datetime BETWEEN DATE('2022-01-01') AND DATE('2022-12-31')
+
+    GROUP BY trip_date
+)
+SELECT * FROM trips
+ORDER BY trip_date;
+
+
+[0m13:52:49.861155 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m13:52:50.782061 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:8ca219f3-74e2-48e1-b51e-cac33d2bf1b1&page=queryresults
+[0m13:52:51.316019 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:8ca219f3-74e2-48e1-b51e-cac33d2bf1b1&page=queryresults
+[0m13:52:51.442163 [debug] [Thread-1  ]: Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  No matching signature for operator BETWEEN
+    Argument types: TIMESTAMP, DATE, DATE
+    Signature: (T1) BETWEEN (T1) AND (T1)
+      Unable to find common supertype for templated argument <T1>
+        Input types for <T1>: {DATE, TIMESTAMP} at [15:19]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:52:51.447235 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '46677837-021f-4d81-9db2-9920202ba573', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239B9669AC0>]}
+[0m13:52:51.449258 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [[31mERROR[0m in 1.75s]
+[0m13:52:51.452222 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.daily_revenue
+[0m13:52:51.453238 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.daily_revenue' to be skipped because of status 'error'.  Reason: Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  No matching signature for operator BETWEEN
+    Argument types: TIMESTAMP, DATE, DATE
+    Signature: (T1) BETWEEN (T1) AND (T1)
+      Unable to find common supertype for templated argument <T1>
+        Input types for <T1>: {DATE, TIMESTAMP} at [15:19]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql.
+[0m13:52:51.456163 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:52:51.457193 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:52:51.458650 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m13:52:51.459658 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m13:52:51.461124 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.daily_revenue' was properly closed.
+[0m13:52:51.462132 [info ] [MainThread]: 
+[0m13:52:51.463558 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 6.39 seconds (6.39s).
+[0m13:52:51.466068 [debug] [MainThread]: Command end result
+[0m13:52:51.530204 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:52:51.535205 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:52:51.551910 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m13:52:51.552911 [info ] [MainThread]: 
+[0m13:52:51.554233 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m13:52:51.556263 [info ] [MainThread]: 
+[0m13:52:51.557673 [error] [MainThread]: [31mFailure in model daily_revenue (models\marts\daily_revenue.sql)[0m
+[0m13:52:51.560113 [error] [MainThread]:   Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  No matching signature for operator BETWEEN
+    Argument types: TIMESTAMP, DATE, DATE
+    Signature: (T1) BETWEEN (T1) AND (T1)
+      Unable to find common supertype for templated argument <T1>
+        Input types for <T1>: {DATE, TIMESTAMP} at [15:19]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:52:51.563483 [info ] [MainThread]: 
+[0m13:52:51.565485 [info ] [MainThread]:   compiled code at target\compiled\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:52:51.568341 [info ] [MainThread]: 
+[0m13:52:51.572696 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:52:51.577901 [debug] [MainThread]: Command `dbt run` failed at 13:52:51.576897 after 15.43 seconds
+[0m13:52:51.579730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239BB6A4F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DF8688B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DFA59D90>]}
+[0m13:52:51.581947 [debug] [MainThread]: Flushing usage events
+[0m13:52:52.854349 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:54:14.478346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FA994F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FCC1AE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FCC1A1C0>]}
+
+
+============================== 13:54:14.486638 | 5c9a3523-cef4-4f5d-afdc-a18d746b6937 ==============================
+[0m13:54:14.486638 [info ] [MainThread]: Running with dbt=1.10.5
+[0m13:54:14.488867 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt run --select daily_revenue', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:21.316666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002019FC55310>]}
+[0m13:54:21.446784 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FCBD0100>]}
+[0m13:54:21.448849 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:54:22.757890 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m13:54:23.173398 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m13:54:23.175399 [debug] [MainThread]: Partial parsing: updated file: nyc_taxi_dbt://macros\date_filter.sql
+[0m13:54:23.332807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201A022CFA0>]}
+[0m13:54:23.495643 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:54:23.500344 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:54:23.549859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201A0043640>]}
+[0m13:54:23.550862 [info ] [MainThread]: Found 2 models, 496 macros
+[0m13:54:23.553076 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201A01C3C70>]}
+[0m13:54:23.555358 [info ] [MainThread]: 
+[0m13:54:23.556368 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:54:23.559822 [info ] [MainThread]: 
+[0m13:54:23.562824 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:54:23.567176 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m13:54:23.569637 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:28.168355 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m13:54:28.170442 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:54:28.906176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002019FC8C250>]}
+[0m13:54:28.907412 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:54:28.914858 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.daily_revenue
+[0m13:54:28.916886 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [RUN]
+[0m13:54:28.919183 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.daily_revenue'
+[0m13:54:28.920182 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.daily_revenue
+[0m13:54:28.952633 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.daily_revenue"
+[0m13:54:28.955667 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.daily_revenue
+[0m13:54:29.023273 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.daily_revenue"
+[0m13:54:29.027318 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.daily_revenue: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.daily_revenue"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`daily_revenue`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        DATE(pickup_datetime) AS trip_date,
+        COUNT(*) AS trip_count,
+        
+  COALESCE(fare_amount, 0) + COALESCE(tip_amount, 0)
+ AS revenue
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+    WHERE 
+  DATE(pickup_datetime) BETWEEN DATE('2022-01-01') AND DATE('2022-12-31')
+
+    GROUP BY trip_date
+)
+SELECT * FROM trips
+ORDER BY trip_date;
+
+
+[0m13:54:29.028379 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m13:54:30.120750 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:b91d8ade-994d-444c-ae15-32e2226f2df4&page=queryresults
+[0m13:54:30.634010 [error] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:b91d8ade-994d-444c-ae15-32e2226f2df4&page=queryresults
+[0m13:54:30.643820 [debug] [Thread-1  ]: Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  SELECT list expression references column fare_amount which is neither grouped nor aggregated at [11:12]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:54:30.649373 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5c9a3523-cef4-4f5d-afdc-a18d746b6937', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201A031AF70>]}
+[0m13:54:30.651642 [error] [Thread-1  ]: 1 of 1 ERROR creating sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [[31mERROR[0m in 1.73s]
+[0m13:54:30.654713 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.daily_revenue
+[0m13:54:30.658395 [debug] [Thread-4  ]: Marking all children of 'model.nyc_taxi_dbt.daily_revenue' to be skipped because of status 'error'.  Reason: Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  SELECT list expression references column fare_amount which is neither grouped nor aggregated at [11:12]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql.
+[0m13:54:30.660823 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:54:30.663666 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:54:30.664858 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m13:54:30.666153 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m13:54:30.667157 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.daily_revenue' was properly closed.
+[0m13:54:30.669158 [info ] [MainThread]: 
+[0m13:54:30.672238 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 7.11 seconds (7.11s).
+[0m13:54:30.675081 [debug] [MainThread]: Command end result
+[0m13:54:30.737210 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:54:30.743150 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:54:30.758382 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m13:54:30.759737 [info ] [MainThread]: 
+[0m13:54:30.761873 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m13:54:30.763901 [info ] [MainThread]: 
+[0m13:54:30.765342 [error] [MainThread]: [31mFailure in model daily_revenue (models\marts\daily_revenue.sql)[0m
+[0m13:54:30.767945 [error] [MainThread]:   Database Error in model daily_revenue (models\marts\daily_revenue.sql)
+  SELECT list expression references column fare_amount which is neither grouped nor aggregated at [11:12]
+  compiled code at target\run\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:54:30.769418 [info ] [MainThread]: 
+[0m13:54:30.771596 [info ] [MainThread]:   compiled code at target\compiled\nyc_taxi_dbt\models\marts\daily_revenue.sql
+[0m13:54:30.773964 [info ] [MainThread]: 
+[0m13:54:30.776398 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:54:30.779878 [debug] [MainThread]: Command `dbt run` failed at 13:54:30.779878 after 16.47 seconds
+[0m13:54:30.782077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FA994F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201FCBD0100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201A0254E20>]}
+[0m13:54:30.784090 [debug] [MainThread]: Flushing usage events
+[0m13:54:32.035344 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:59:45.111206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F88194F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A419E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A4191C0>]}
+
+
+============================== 13:59:45.118519 | 62aaec3a-4894-405c-9dcd-f02d854e61d2 ==============================
+[0m13:59:45.118519 [info ] [MainThread]: Running with dbt=1.10.5
+[0m13:59:45.121563 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\anjus\\projects\\GCP_ETE', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\anjus\\projects\\GCP_ETE\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --select daily_revenue', 'send_anonymous_usage_stats': 'True'}
+[0m13:59:51.693599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F89BB9D60>]}
+[0m13:59:51.822809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A3D9100>]}
+[0m13:59:51.824874 [info ] [MainThread]: Registered adapter: bigquery=1.10.0
+[0m13:59:53.096934 [debug] [MainThread]: checksum: fa4c2685620973c5adba0a491aa9c06e8cf48c9113a5280b45b6efa706ae8f4b, vars: {}, profile: , target: , version: 1.10.5
+[0m13:59:53.514539 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m13:59:53.515581 [debug] [MainThread]: Partial parsing: updated file: nyc_taxi_dbt://models\marts\daily_revenue.sql
+[0m13:59:54.113436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012FADAAB730>]}
+[0m13:59:54.272906 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m13:59:54.277951 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m13:59:54.330826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012FAD9D0580>]}
+[0m13:59:54.333043 [info ] [MainThread]: Found 2 models, 496 macros
+[0m13:59:54.334077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012FADA76760>]}
+[0m13:59:54.337367 [info ] [MainThread]: 
+[0m13:59:54.339742 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:59:54.340796 [info ] [MainThread]: 
+[0m13:59:54.343798 [debug] [MainThread]: Acquiring new bigquery connection 'master'
+[0m13:59:54.347800 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2'
+[0m13:59:54.349797 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:59:59.349497 [debug] [ThreadPool]: Acquiring new bigquery connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed'
+[0m13:59:59.350518 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:00:00.054384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A3D0A60>]}
+[0m14:00:00.056528 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:00:00.064653 [debug] [Thread-1  ]: Began running node model.nyc_taxi_dbt.daily_revenue
+[0m14:00:00.067706 [info ] [Thread-1  ]: 1 of 1 START sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [RUN]
+[0m14:00:00.070705 [debug] [Thread-1  ]: Acquiring new bigquery connection 'model.nyc_taxi_dbt.daily_revenue'
+[0m14:00:00.073945 [debug] [Thread-1  ]: Began compiling node model.nyc_taxi_dbt.daily_revenue
+[0m14:00:00.094833 [debug] [Thread-1  ]: Writing injected SQL for node "model.nyc_taxi_dbt.daily_revenue"
+[0m14:00:00.096834 [debug] [Thread-1  ]: Began executing node model.nyc_taxi_dbt.daily_revenue
+[0m14:00:00.165409 [debug] [Thread-1  ]: Writing runtime sql for node "model.nyc_taxi_dbt.daily_revenue"
+[0m14:00:00.167924 [debug] [Thread-1  ]: On model.nyc_taxi_dbt.daily_revenue: /* {"app": "dbt", "dbt_version": "1.10.5", "profile_name": "GCP_ETE", "target_name": "dev", "node_id": "model.nyc_taxi_dbt.daily_revenue"} */
+
+
+  create or replace view `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`daily_revenue`
+  OPTIONS()
+  as WITH trips AS (
+    SELECT
+        DATE(pickup_datetime) AS trip_date,
+        COUNT(*) AS trip_count,
+        SUM(
+  COALESCE(fare_amount, 0) + COALESCE(tip_amount, 0)
+) AS revenue
+    FROM `fair-gist-467212-e2`.`ny_taxi_proccessed_ny_taxi_proccessed`.`stg_taxi_trips`
+    WHERE 
+  DATE(pickup_datetime) BETWEEN DATE('2022-01-01') AND DATE('2022-12-31')
+
+    GROUP BY trip_date
+)
+SELECT * FROM trips
+ORDER BY trip_date;
+
+
+[0m14:00:00.169199 [debug] [Thread-1  ]: Opening a new connection, currently in state init
+[0m14:00:01.486552 [debug] [Thread-1  ]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=fair-gist-467212-e2&j=bq:US:516886c0-e32c-46f6-ac8e-b499596f5431&page=queryresults
+[0m14:00:04.327293 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '62aaec3a-4894-405c-9dcd-f02d854e61d2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012FADA23C10>]}
+[0m14:00:04.329301 [info ] [Thread-1  ]: 1 of 1 OK created sql view model ny_taxi_proccessed_ny_taxi_proccessed.daily_revenue  [[32mCREATE VIEW (0 processed)[0m in 4.25s]
+[0m14:00:04.332019 [debug] [Thread-1  ]: Finished running node model.nyc_taxi_dbt.daily_revenue
+[0m14:00:04.334431 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:00:04.336536 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:00:04.338536 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2' was properly closed.
+[0m14:00:04.340602 [debug] [MainThread]: Connection 'list_fair-gist-467212-e2_ny_taxi_proccessed_ny_taxi_proccessed' was properly closed.
+[0m14:00:04.341603 [debug] [MainThread]: Connection 'model.nyc_taxi_dbt.daily_revenue' was properly closed.
+[0m14:00:04.342603 [info ] [MainThread]: 
+[0m14:00:04.344604 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 10.00 seconds (10.00s).
+[0m14:00:04.347846 [debug] [MainThread]: Command end result
+[0m14:00:04.416125 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\anjus\projects\GCP_ETE\target\manifest.json
+[0m14:00:04.421577 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\anjus\projects\GCP_ETE\target\semantic_manifest.json
+[0m14:00:04.443972 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\anjus\projects\GCP_ETE\target\run_results.json
+[0m14:00:04.445066 [info ] [MainThread]: 
+[0m14:00:04.446226 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:00:04.447705 [info ] [MainThread]: 
+[0m14:00:04.450222 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m14:00:04.454037 [debug] [MainThread]: Command `dbt run` succeeded at 14:00:04.452626 after 19.51 seconds
+[0m14:00:04.455044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F88194F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8951B1F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012F8A3D9100>]}
+[0m14:00:04.457057 [debug] [MainThread]: Flushing usage events
+[0m14:00:05.610041 [debug] [MainThread]: An error was encountered while trying to flush usage events
